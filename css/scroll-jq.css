@@ -1,0 +1,425 @@
+body{
+	height: 100%;
+	margin: 0 auto;
+	max-width: 500px;
+	background-color: #eee;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.inContent{
+	margin: 0 auto;
+	max-width: 500px;
+	position: relative;
+	overflow: hidden;
+	background-color: #201147;
+}
+.rule{
+	width: 89.86%;
+	border: 1px solid #f5c164;
+	margin: 1em auto 0;
+	box-shadow: 0 0 10px rgba(255,255,255,0.9);
+	position: relative;
+	margin-top: -5em;
+	padding-bottom: 5.5em;
+}
+.rule_top_wenzi{
+	position: absolute;
+	width: 46.67%;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	top: -0.8em;
+}
+.rule p{
+	color: #d7c7ff;
+	font-family: "微软雅黑";
+	padding: 1.3em 1em 0 1em;
+	line-height: 1.5em;
+	text-align:justify;
+    -ms-text-justify: justify;
+    text-justify: inter-word;
+    text-justify: inter-ideograph;
+}
+.rule p span{
+	color: #fff;
+}
+.ruleBtn{
+	float: right;
+	color: #fdc32e;
+	font-family: "微软雅黑";
+	padding-right: 1em;
+	text-decoration: underline;
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+.gift{
+	width: 17%;
+	position: absolute;
+	left: -2.5em;
+}
+.answerBtn{
+	width: 51.6%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	bottom: -2em;
+}
+.star{
+	position: absolute;
+	left: 8%;
+	bottom: 1.8em;
+	width: 30%;
+}
+.remain{
+	width: 89.86%;
+	padding: 2em 0;
+}
+.remain p{
+	color: #9b8dbf;
+	font-family: "微软雅黑";
+	display: inline-block;
+	float: left;
+	margin-top: 1.2em;
+	width: 45%;
+	text-align: right;
+}
+.starList{
+	width: 47%;
+	float: left;
+	padding-left: 1em;
+}
+.starList li{
+	width: 13%;
+	display: inline-block;
+	list-style: none;
+	float: left;
+	margin-right: 5%;
+}
+.prize{
+	width: 89.8%;
+	border: 1px solid rgba(251,212,123,0.1);
+	background: rgba(255,255,255,0.05);
+	box-shadow: 0 0 10px rgba(255,255,255,0.5);
+	-webkit-box-shadow: 0 0 10px rgba(255,255,255,0.2);
+	margin: 1em auto 2em;
+	position: relative;
+}
+.winners{
+	width: 46.67%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	top: -1.2em;
+}
+.number{
+	margin-top: 1em;
+	position: relative;
+}
+.number i{
+	width: 6.1%;
+	height: 0.32em;
+	display: inline-block;
+	position: absolute;
+	background: url(../img/leftCircle.png) 0 0 no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	left: -5.2%;
+	top: 50%;
+}
+.number em{
+	width: 5.8%;
+	height: 0.32em;
+	display: inline-block;
+	position: absolute;
+	background: url(../img/rightCircle.png) 0 0 no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	right: -5.2%;
+	top: 50%;
+}
+.number p{
+	width: 23%;
+	text-align: center;
+	color: #fff;
+	font-family: "微软雅黑";
+	float: left;
+	margin-top: 1.2em;
+}
+.circle{
+	float: left;
+	padding: 0;
+	width: 77%;
+}
+.circle li{
+	float: left;
+	width: 3em;
+	height: auto;
+	line-height: 3em;
+	text-align: center;
+	border-radius: 50%;
+	border: 1px solid #fdc62f;
+	list-style: none;
+	color: #fdc62f;
+	font-family: "Arial";
+	margin-right: 0.5em;
+}
+.firstMan{
+	width: 44.93%;
+	margin: 1em auto 2em;
+}
+.prizeCon{
+	width: 94%;
+	margin: 0 auto;
+}
+.prizeTop{
+	background-color: #daaf4e;
+	width: 100%;
+	height: 2.28em;
+	line-height: 2.28em;
+	margin: 0 auto;
+	position: relative;
+}
+.prizeTop i{
+	width: 5.2%;
+	height: 2.28em;
+	display: inline-block;
+	position: absolute;
+	background: url(../img/leftIcon.png) 0 0 no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	left: -5.2%;
+	top: 1em;
+}
+.prizeTop em{
+	width: 5.2%;
+	height: 2.28em;
+	display: inline-block;
+	position: absolute;
+	background: url(../img/rightIcon.png) 0 0 no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	right: -5.2%;
+	top: 1em;
+}
+.left,.middle,.right{
+	font-family: "微软雅黑";
+	text-align: center;
+	float: left;
+}
+.left{
+	width: 18%;
+}
+.leftYellow{
+	width: 18%;
+	color: #febc24;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.middle{
+	width: 32%;
+}
+.middlePurple{
+	width: 32%;
+	color: #d7c7ff;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.right{
+	width: 47%;
+}
+.rightPurple{
+	width: 47%;
+	color: #d7c7ff;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.imgList{
+	padding: 0;
+	margin: 0;
+	/* height: 85em; */
+}
+.imgList li{
+	list-style: none;
+	border-bottom: 1px #4d426c dashed;
+	/* padding: 1em 0; */
+	/* white-space:nowrap; */	
+	/* height: 3.4em; */
+
+}
+.imgList li:nth-last-child(1){
+	border-bottom: 0;
+}
+.boxIn{
+	width: 99.5%;
+	margin: 0 auto;
+	border: 1px solid #daaf4e;
+	height: 18.5em;
+	overflow: hidden;
+}
+
+/* 获奖规则提示层 */
+.rulePop{
+	display: none;
+}
+.mask-layer-rulePop{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index: 900;
+	-moz-opacity: 0.5;
+	opacity: 0.50;
+	filter: alpha(opacity = 50);
+}
+.ruleContent{
+	z-index: 999;
+	position: absolute;
+	width: 82.67%;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	font-family: "微软雅黑";
+}
+.leftRule{
+	width: 11%;
+	position: absolute;
+	left: -11%;
+	top: 20em;
+}
+.rightRule{
+	width: 11%;
+	position: absolute;
+	right: -11%;
+	top: 30em;
+}
+.rule_cancel{
+	position: absolute;
+	top: 10%;
+	right: -1.8em;
+}
+.rule_cancel img{
+	display: block;
+	width: 55%;
+	height: auto;
+}
+.ruleContent h3{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+	height: 3em;
+	position: relative;
+}
+.rule_top,.rule_footer{
+	width: 100%;
+	margin: 0 auto;
+}
+.rule_top img,.rule_footer img{
+	display: block;
+	height: auto;
+	width: 100%;
+}
+.ruleCon{
+	background: url(../img/rule_middle.png) 0 0 no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	height: 28em;
+	overflow: auto;
+	margin-top: -0.15em;
+}
+.ruleCon p{
+	margin-top: 0;
+}
+.rulist{
+	text-align: left;
+	padding: 0;
+	width: 84.8%;
+	margin: 0 auto;
+}
+.rulist li{
+	list-style: none;
+	text-align: left;
+	margin-bottom: 0.5em;
+	text-align:justify;
+    -ms-text-justify: justify;
+    text-justify: inter-word;
+    text-justify: inter-ideograph;  
+}
+.rulist li p{
+	margin: 0.5em 0 0 0;
+	color: #ff3636;
+}
+.rulist li strong{
+	font-weight: normal;
+	color: #ff0000;
+}
+.litable{
+	width: 110%;
+	margin: 0 auto;
+	margin-left: -5%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.litable img{
+	display: block;
+	height: auto;
+	width: 100%;
+}
+.copyright{
+	width: 110%;
+	margin: 0 auto;
+	margin-left: -5%;
+}
+.copyright img{
+	display: block;
+	height: auto;
+	width: 100%;
+}
+.twolist{
+	line-height: 1.5em;
+}
+.special{
+	margin-top: 1em;
+}
+.special p{
+	width: 88%;
+	margin: 0 auto;
+}
+.specialist{
+	padding: 0;
+	width: 88%;
+	margin: 0 auto;
+}
+.specialist li{
+	list-style: none;
+	margin-bottom: 1em;
+	text-align:justify;
+    -ms-text-justify: justify;
+    text-justify: inter-word;
+    text-justify: inter-ideograph; 
+}
+.coryright{
+	width: 90%;
+	margin: 0 auto;
+}
